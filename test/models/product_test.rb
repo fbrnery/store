@@ -7,4 +7,9 @@ describe Product do
     product.must_be :invalid?
     product.errors[:name].must_include "can't be blank"
   end
+
+  it "must validate product price" do
+    product.must_be :invalid?
+    product.errors[:price].must_include "can't be blank"
+  end
 end
