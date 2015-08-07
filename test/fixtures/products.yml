@@ -1,0 +1,11 @@
+iphone_5:
+  name: iPhone 5
+  price: 1999
+
+iphone_5s:
+  name: iPhone 5S
+  price: 2999
+
+iphone_6:
+  name: iPhone 6
+  price: 3999
